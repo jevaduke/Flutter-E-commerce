@@ -227,25 +227,6 @@ class _PhoneState extends State<Phone> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0, // this will be set when a new tab is tapped
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            // ignore: deprecated_member_use
-            title: Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.announcement),
-            // ignore: deprecated_member_use
-            title: Text('Coming Soon'),
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              // ignore: deprecated_member_use
-              title: Text('Settings'))
-        ],
-      ),
     );
   }
 }
